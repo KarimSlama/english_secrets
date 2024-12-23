@@ -21,6 +21,11 @@ dependencies:
   flutter_launcher_icons: ^0.14.2
   # An SVG rendering and widget library for Flutter, which allows painting and displaying Scalable Vector Graphics 1.1 files.
   flutter_svg: ^2.0.16
+  # A build system for Dart code generation and modular compilation.
+  build_runner: ^2.4.14
+  # The Flutter code generator for your assets, fonts, colors.
+  flutter_gen_runner: ^5.8.0
+  animated_text_kit: ^4.2.2
 
 dev_dependencies:
   flutter_test:
@@ -32,3 +37,6 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/images/
+    - assets/icons/
