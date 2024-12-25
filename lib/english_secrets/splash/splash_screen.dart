@@ -1,3 +1,4 @@
+import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
 import 'package:english_secrets/english_secrets/splash/widget/animated_text_widget.dart';
 import 'package:english_secrets/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +32,6 @@ class SplashScreenState extends State<SplashScreen>
 
     // Start Logo Animation
     logoController.repeat();
-
   }
 
   @override
@@ -44,17 +44,16 @@ class SplashScreenState extends State<SplashScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: const BoxDecoration(
+        decoration: BoxDecoration(
           gradient: LinearGradient(
             begin: AlignmentDirectional.topStart,
             end: AlignmentDirectional.bottomEnd,
-            colors: [Color(0xff6B73FF), Color(0xff000DFF)],
+            colors: AppColors.linear,
           ),
         ),
         child: Stack(
           alignment: AlignmentDirectional.center,
           children: [
-            // Rotating SVG Background
             AnimatedBuilder(
               animation: rotationAnimation,
               builder: (context, child) {

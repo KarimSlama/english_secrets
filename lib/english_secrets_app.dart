@@ -8,6 +8,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class EnglishSecretsApp extends StatelessWidget {
   final AppRouter appRouter;
+
   const EnglishSecretsApp({super.key, required this.appRouter});
 
   @override

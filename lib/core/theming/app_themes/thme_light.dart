@@ -7,12 +7,12 @@ ThemeData themeLight = ThemeData(
   brightness: Brightness.light,
   colorScheme: const ColorScheme.light(
     primary: AppColors.blue,
-    secondary: AppColors.white,
+    secondary: AppColors.dark,
     error: Colors.red,
     onPrimary: AppColors.blue,
     onSecondary: AppColors.blue,
     onSurface: AppColors.silver,
-    onError: AppColors.white,
+    onError: AppColors.dark,
     brightness: Brightness.light,
   ),
   appBarTheme: AppBarTheme(
@@ -38,7 +38,7 @@ ThemeData themeLight = ThemeData(
   textTheme: TextTheme(
     bodyMedium: GoogleFonts.poppins(
       color: AppColors.dark,
-      fontSize: 16,
+      fontSize: 14,
     ),
   ),
 );

@@ -12,24 +12,55 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
-  /// File path: assets/icons/logo.svg
-  String get logo => 'assets/icons/logo.svg';
+  /// File path: assets/icons/apple.svg
+  String get apple => 'assets/icons/apple.svg';
+
+  /// File path: assets/icons/dots.svg
+  String get dots => 'assets/icons/dots.svg';
+
+  /// File path: assets/icons/facebook.svg
+  String get facebook => 'assets/icons/facebook.svg';
+
+  /// File path: assets/icons/google.svg
+  String get google => 'assets/icons/google.svg';
+
+  /// File path: assets/icons/login.svg
+  String get login => 'assets/icons/login.svg';
+
+  /// File path: assets/icons/time.svg
+  String get time => 'assets/icons/time.svg';
 
   /// File path: assets/icons/withe_circle.svg
   String get witheCircle => 'assets/icons/withe_circle.svg';
 
   /// List of all assets
-  List<String> get values => [logo, witheCircle];
+  List<String> get values =>
+      [apple, dots, facebook, google, login, time, witheCircle];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
   /// File path: assets/images/logo.png
-  AssetGenImage get logo => AssetGenImage('assets/images/logo.png');
+  AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
+
+  /// File path: assets/images/user.png
+  AssetGenImage get user => const AssetGenImage('assets/images/user.png');
+
+  /// File path: assets/images/user_1.png
+  AssetGenImage get user1 => const AssetGenImage('assets/images/user_1.png');
+
+  /// File path: assets/images/user_2.png
+  AssetGenImage get user2 => const AssetGenImage('assets/images/user_2.png');
+
+  /// File path: assets/images/user_3.png
+  AssetGenImage get user3 => const AssetGenImage('assets/images/user_3.png');
+
+  /// File path: assets/images/user_4.png
+  AssetGenImage get user4 => const AssetGenImage('assets/images/user_4.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [logo];
+  List<AssetGenImage> get values => [logo, user, user1, user2, user3, user4];
 }
 
 class Assets {
