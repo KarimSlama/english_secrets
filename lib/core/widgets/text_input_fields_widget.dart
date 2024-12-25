@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class TextInputFieldsWidget extends StatelessWidget {
   final TextEditingController controller;
   final TextInputType textInputType;
-  final String hintName;
+  final String label;
   final IconData prefixIcon;
   final IconData? suffixIcon;
   final Function? onPressed;
@@ -15,7 +15,7 @@ class TextInputFieldsWidget extends StatelessWidget {
     super.key,
     required this.controller,
     required this.textInputType,
-    required this.hintName,
+    required this.label,
     required this.prefixIcon,
     this.suffixIcon,
     this.onPressed,
@@ -25,25 +25,28 @@ class TextInputFieldsWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
-      elevation: 7,
-      shadowColor: AppColors.ofWeight,
-      borderRadius: BorderRadiusDirectional.circular(20),
-      child: TextFormField(
-        controller: controller,
-        keyboardType: textInputType,
-        obscureText: isObscureText,
-        validator: (value) {
-          return validate(value);
-        },
-        decoration: InputDecoration(
-          hintText: hintName,
-          prefixIcon: Icon(prefixIcon),
-          suffixIcon: IconButton(
-            onPressed: onPressed != null ? () => onPressed!() : null,
-            icon: Icon(suffixIcon),
-          ),
-          border: InputBorder.none,
+    return TextFormField(
+      controller: controller,
+      keyboardType: textInputType,
+      obscureText: isObscureText,
+      validator: (value) {
+        return validate(value);
+      },
+      decoration: InputDecoration(
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(15),
+          borderSide: const BorderSide(color: AppColors.light, width: 1.0),
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(12),
+          borderSide: const BorderSide(color: AppColors.light, width: 1.0),
+        ),
+        fillColor: AppColors.white,
+        labelText: label,
+        prefixIcon: Icon(prefixIcon),
+        suffixIcon: IconButton(
+          onPressed: onPressed != null ? () => onPressed!() : null,
+          icon: Icon(suffixIcon),
         ),
       ),
     );

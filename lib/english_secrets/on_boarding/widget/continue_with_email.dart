@@ -1,3 +1,5 @@
+import 'package:english_secrets/core/helpers/extensions.dart';
+import 'package:english_secrets/core/routing/routes.dart';
 import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
 import 'package:english_secrets/core/theming/app_strings/app_string.dart';
 import 'package:english_secrets/gen/assets.gen.dart';
@@ -13,7 +15,9 @@ class ContinueWithEmail extends StatelessWidget {
     return Padding(
       padding: const EdgeInsetsDirectional.symmetric(vertical: 20),
       child: TextButton(
-        onPressed: () {},
+        onPressed: () {
+          context.pushNamed(Routes.loginScreen);
+        },
         style: ButtonStyle(
           backgroundColor: WidgetStateProperty.all(AppColors.white),
           tapTargetSize: MaterialTapTargetSize.shrinkWrap,
