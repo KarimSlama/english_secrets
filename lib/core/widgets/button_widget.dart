@@ -3,16 +3,17 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class ButtonWidget extends StatelessWidget {
-  final Function? onPressed;
+  final VoidCallback onBackPressed;
   final String btnText;
 
-  const ButtonWidget({super.key, this.onPressed, required this.btnText});
+  const ButtonWidget(
+      {super.key, required this.onBackPressed, required this.btnText});
 
   @override
   Widget build(BuildContext context) {
     return TextButton(
       onPressed: () {
-        onPressed != null ? () => onPressed!() : null;
+        onBackPressed();
       },
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(AppColors.blue),

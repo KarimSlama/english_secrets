@@ -1,4 +1,5 @@
 import 'package:english_secrets/core/routing/routes.dart';
+import 'package:english_secrets/english_secrets/dashboard/dashboard_screen.dart';
 import 'package:english_secrets/english_secrets/forgot_password/forgot_password_screen.dart';
 import 'package:english_secrets/english_secrets/login/login_screen.dart';
 import 'package:english_secrets/english_secrets/on_boarding/on_boarding_screen.dart';
@@ -32,6 +33,11 @@ class AppRouter {
       case Routes.forgotPasswordScreen:
         return MaterialPageRoute(
           builder: (context) => ForgotPasswordScreen(),
+        );
+
+      case Routes.dashboardScreen:
+        return MaterialPageRoute(
+          builder: (context) => DashboardScreen(),
         );
       default:
         return null;
