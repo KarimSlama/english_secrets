@@ -31,4 +31,15 @@ class AppString {
       findFriendsToDiscussCommonTopicsCompleteChallengesTogether =
       'Find friends to discuss common topics. Complete challenges together.';
   static const String bestStreakDay = 'BEST STREAK DAY';
+  static const String learnAfewAchieveAlot = 'Learn a Few Achieve a Lot';
+  static const String login = 'Login';
+  static const String email = 'E-mail';
+  static const String password = 'Password';
+  static const String iForgotMyPassword = 'I forgot my password';
+  static const String doNotHaveAccountLetsCreate =
+      'Don’t have account? Let’s create!';
+  static const String next = 'Next';
+  static const String pleaseEnterAvalidEmail = 'Please Enter a Valid Email';
+  static const String pleaseEnterAvalidPassword =
+      'Please Enter a Valid Password';
 }
