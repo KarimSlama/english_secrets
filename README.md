@@ -45,7 +45,7 @@ Hundreds of students have achieved their dreams with personalized guidance from 
 
 Framework: Flutter for a seamless cross-platform experience.<br/>
 State Management: Bloc/Cubit for a clean and scalable architecture.<br/>
-Backend: Firebase/Node.js for authentication and data management.<br/>
+Backend: Firebase/Python [Django] for authentication and data management.<br/>
 Database: Firestore for real-time data syncing.<br/>
 APIs: Integrating third-party language learning APIs for advanced features.<br/>
 
