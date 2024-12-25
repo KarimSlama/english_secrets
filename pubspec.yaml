@@ -25,7 +25,12 @@ dependencies:
   build_runner: ^2.4.14
   # The Flutter code generator for your assets, fonts, colors.
   flutter_gen_runner: ^5.8.0
+
   animated_text_kit: ^4.2.2
+  # Use dynamic and beautiful card view pagers to help you create great apps.
+  vertical_card_pager: ^1.6.2
+  # Customizable animated page indicator with a set of built-in effects.
+  smooth_page_indicator: ^1.2.0+3
 
 dev_dependencies:
   flutter_test:

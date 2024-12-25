@@ -27,7 +27,7 @@ class TextInputFieldsWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       elevation: 7,
-      shadowColor: AppColors.light,
+      shadowColor: AppColors.ofWeight,
       borderRadius: BorderRadiusDirectional.circular(20),
       child: TextFormField(
         controller: controller,
