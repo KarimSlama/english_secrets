@@ -43,11 +43,11 @@ Hundreds of students have achieved their dreams with personalized guidance from 
 
 ## 🔧 Tech Stack
 
-Framework: Flutter for a seamless cross-platform experience.
-State Management: Bloc/Cubit for a clean and scalable architecture.
-Backend: Firebase/Node.js for authentication and data management.
-Database: Firestore for real-time data syncing.
-APIs: Integrating third-party language learning APIs for advanced features.
+Framework: Flutter for a seamless cross-platform experience.<br/>
+State Management: Bloc/Cubit for a clean and scalable architecture.<br/>
+Backend: Firebase/Node.js for authentication and data management.<br/>
+Database: Firestore for real-time data syncing.<br/>
+APIs: Integrating third-party language learning APIs for advanced features.<br/>
 
 ## 🎨 Application Design UI
 ![Cover](https://github.com/user-attachments/assets/9e252ee8-f848-4cf2-bb8a-16aed04b66a1)
