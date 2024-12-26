@@ -36,6 +36,7 @@ class AppString {
       'There\'s no time like the present to Start';
   static const String login = 'Login';
   static const String signUp = 'Sign Up';
+  static const String forgotPassword = 'Forgot Password';
   static const String name = 'Name';
   static const String email = 'E-mail';
   static const String phone = 'Phone';

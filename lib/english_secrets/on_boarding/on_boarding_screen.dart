@@ -115,20 +115,25 @@ class _OnBoardingScreenState extends State<OnBoardingScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        height: double.infinity,
         decoration: BoxDecoration(
           gradient: LinearGradient(
             colors: AppColors.linear,
           ),
         ),
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: SingleChildScrollView(
-            physics: BouncingScrollPhysics(),
+        child: SingleChildScrollView(
+          physics: BouncingScrollPhysics(),
+          child: Padding(
+            padding: const EdgeInsets.all(16),
             child: Stack(
               children: [
                 Align(
                     alignment: AlignmentDirectional.topEnd,
                     child: SvgPicture.asset(Assets.icons.dots)),
+                Align(
+                  alignment: AlignmentDirectional.center,
+                  child: SvgPicture.asset(Assets.icons.witheCircle),
+                ),
                 Column(
                   spacing: 5.h,
                   crossAxisAlignment: CrossAxisAlignment.start,
