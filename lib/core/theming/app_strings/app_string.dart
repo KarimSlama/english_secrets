@@ -51,4 +51,8 @@ class AppString {
   static const String pleaseEnterAvalidPhone = 'Please Enter a Valid Phone';
   static const String pleaseEnterAvalidPassword =
       'Please Enter a Valid Password';
+  static const String hello = 'Hello,';
+  static const String whatOtherSay = 'What Other Say!';
+  static const String discoverCourses = 'Discover Courses';
+  static const String seeMore = 'See More';
 }

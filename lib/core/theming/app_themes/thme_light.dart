@@ -38,7 +38,7 @@ ThemeData themeLight = ThemeData(
   textTheme: TextTheme(
     bodyMedium: GoogleFonts.poppins(
       color: AppColors.dark,
-      fontSize: 14,
+      fontSize: 16,
     ),
   ),
 );

@@ -24,8 +24,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/google.svg
   String get google => 'assets/icons/google.svg';
 
+  /// File path: assets/icons/icons.ttf
+  String get icons => 'assets/icons/icons.ttf';
+
   /// File path: assets/icons/login.svg
   String get login => 'assets/icons/login.svg';
+
+  /// File path: assets/icons/quote.svg
+  String get quote => 'assets/icons/quote.svg';
 
   /// File path: assets/icons/time.svg
   String get time => 'assets/icons/time.svg';
@@ -35,11 +41,14 @@ class $AssetsIconsGen {
 
   /// List of all assets
   List<String> get values =>
-      [apple, dots, facebook, google, login, time, witheCircle];
+      [apple, dots, facebook, google, icons, login, quote, time, witheCircle];
 }
 
 class $AssetsImagesGen {
   const $AssetsImagesGen();
+
+  /// File path: assets/images/image.png
+  AssetGenImage get image => const AssetGenImage('assets/images/image.png');
 
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
@@ -60,7 +69,8 @@ class $AssetsImagesGen {
   AssetGenImage get user4 => const AssetGenImage('assets/images/user_4.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [logo, user, user1, user2, user3, user4];
+  List<AssetGenImage> get values =>
+      [image, logo, user, user1, user2, user3, user4];
 }
 
 class Assets {
