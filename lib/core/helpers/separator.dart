@@ -8,6 +8,12 @@ Widget heightSeparator() => Container(
       color: AppColors.grey,
     );
 
+Widget widthSeparator() => Container(
+      width: 1,
+      height: double.infinity,
+      color: AppColors.grey,
+    );
+
 Widget heightLine() => Container(
       width: 80.w,
       height: 4.h,
@@ -15,8 +21,9 @@ Widget heightLine() => Container(
           color: AppColors.blue, borderRadius: BorderRadius.circular(50)),
     );
 
-Widget widthSeparator() => Container(
-      width: 1,
-      height: double.infinity,
-      color: AppColors.grey,
+Widget widthLine() => Container(
+      width: 2.w,
+      height: 30.h,
+      decoration: BoxDecoration(
+          color: AppColors.blue, borderRadius: BorderRadius.circular(50)),
     );
