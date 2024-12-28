@@ -57,4 +57,8 @@ class AppString {
   static const String seeMore = 'See More';
   static const String allVideos = 'All Videos';
   static const String allCourses = 'All Courses';
+  static const String bestSeller = 'Best Seller';
+  static const String requirements = 'Requirements';
+  static const String theCourseIncludes = 'The Course Includes';
+  static const String obtainTheCourse = 'Obtain the Course';
 }

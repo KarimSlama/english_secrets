@@ -1,3 +1,5 @@
+import 'package:english_secrets/core/helpers/extensions.dart';
+import 'package:english_secrets/core/routing/routes.dart';
 import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -9,7 +11,9 @@ class GridViewCourseItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: (){},
+      onTap: () {
+        context.pushNamed(Routes.courseDetailsScreen);
+      },
       child: Material(
         borderRadius: const BorderRadiusDirectional.only(
           topStart: Radius.circular(20),
@@ -37,10 +41,10 @@ class GridViewCourseItemWidget extends StatelessWidget {
             Text(
               overflow: TextOverflow.ellipsis,
               'Ielts Course',
-              style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                  fontSize: 17.sp,
-                  fontWeight: FontWeight.w600
-              ),
+              style: Theme.of(context)
+                  .textTheme
+                  .bodyMedium
+                  ?.copyWith(fontSize: 17.sp, fontWeight: FontWeight.w600),
             ),
             Padding(
               padding: const EdgeInsets.all(8),

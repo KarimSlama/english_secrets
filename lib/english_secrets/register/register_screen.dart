@@ -32,10 +32,11 @@ class RegisterScreen extends StatelessWidget {
                 ButtonWidget(
                   btnText: AppString.signUp,
                   onBackPressed: () {
-                    if(formKey.currentState!.validate()){
+                    if (formKey.currentState!.validate()) {
                       context.pushNamed(Routes.dashboardScreen);
                     }
                   },
+                  width: double.infinity,
                 ),
               ],
             ),

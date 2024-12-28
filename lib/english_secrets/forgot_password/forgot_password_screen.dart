@@ -34,7 +34,11 @@ class ForgotPasswordScreen extends StatelessWidget {
                   }
                 },
               ),
-              ButtonWidget(onBackPressed: () {}, btnText: AppString.next),
+              ButtonWidget(
+                onBackPressed: () {},
+                btnText: AppString.next,
+                width: double.infinity,
+              ),
             ],
           ),
         ),
