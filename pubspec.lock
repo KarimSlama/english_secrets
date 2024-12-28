@@ -30,6 +30,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.2.2"
+  animation_list:
+    dependency: "direct main"
+    description:
+      name: animation_list
+      sha256: "5d193f53a6616dc6496eb7eff297da84a6f18c1c042412bbfe05dfc8be7be926"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
   archive:
     dependency: transitive
     description:
@@ -54,6 +62,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.11.0"
+  audio_video_progress_bar:
+    dependency: "direct main"
+    description:
+      name: audio_video_progress_bar
+      sha256: "552b1f73c56c4c88407999e0a8507176f60c56de3e6d63bc20a0eab48467d4c9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.3"
   bloc:
     dependency: transitive
     description:
