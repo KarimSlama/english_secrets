@@ -55,4 +55,6 @@ class AppString {
   static const String whatOtherSay = 'What Other Say!';
   static const String discoverCourses = 'Discover Courses';
   static const String seeMore = 'See More';
+  static const String allVideos = 'All Videos';
+  static const String allCourses = 'All Courses';
 }

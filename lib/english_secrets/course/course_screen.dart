@@ -1,4 +1,6 @@
 import 'dart:async';
+import 'package:english_secrets/core/helpers/extensions.dart';
+import 'package:english_secrets/core/routing/routes.dart';
 import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
 import 'package:english_secrets/core/theming/app_strings/app_string.dart';
 import 'package:english_secrets/english_secrets/course/widget/grid_view_course_item_widget.dart';
@@ -74,7 +76,9 @@ class _CourseScreenState extends State<CourseScreen> {
                 HeadlineWidget(headline: AppString.discoverCourses),
                 Spacer(),
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    context.pushNamed(Routes.seeMoreScreen);
+                  },
                   child: Text(
                     AppString.seeMore,
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(

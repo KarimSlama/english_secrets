@@ -7,6 +7,7 @@ import 'package:english_secrets/english_secrets/forgot_password/forgot_password_
 import 'package:english_secrets/english_secrets/login/login_screen.dart';
 import 'package:english_secrets/english_secrets/on_boarding/on_boarding_screen.dart';
 import 'package:english_secrets/english_secrets/register/register_screen.dart';
+import 'package:english_secrets/english_secrets/see_more/see_more_screen.dart';
 import 'package:english_secrets/english_secrets/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -51,6 +52,12 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (context) => CourseScreen(),
         );
+
+      case Routes.seeMoreScreen:
+        return MaterialPageRoute(
+          builder: (context) => SeeMoreScreen(),
+        );
+
       default:
         return null;
     }

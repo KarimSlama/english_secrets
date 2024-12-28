@@ -21,6 +21,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/facebook.svg
   String get facebook => 'assets/icons/facebook.svg';
 
+  /// File path: assets/icons/full_screen.svg
+  String get fullScreen => 'assets/icons/full_screen.svg';
+
   /// File path: assets/icons/google.svg
   String get google => 'assets/icons/google.svg';
 
@@ -30,8 +33,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/login.svg
   String get login => 'assets/icons/login.svg';
 
+  /// File path: assets/icons/play.svg
+  String get play => 'assets/icons/play.svg';
+
   /// File path: assets/icons/quote.svg
   String get quote => 'assets/icons/quote.svg';
+
+  /// File path: assets/icons/sound.svg
+  String get sound => 'assets/icons/sound.svg';
 
   /// File path: assets/icons/time.svg
   String get time => 'assets/icons/time.svg';
@@ -40,8 +49,20 @@ class $AssetsIconsGen {
   String get witheCircle => 'assets/icons/withe_circle.svg';
 
   /// List of all assets
-  List<String> get values =>
-      [apple, dots, facebook, google, icons, login, quote, time, witheCircle];
+  List<String> get values => [
+        apple,
+        dots,
+        facebook,
+        fullScreen,
+        google,
+        icons,
+        login,
+        play,
+        quote,
+        sound,
+        time,
+        witheCircle
+      ];
 }
 
 class $AssetsImagesGen {
