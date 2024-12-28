@@ -48,6 +48,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/withe_circle.svg
   String get witheCircle => 'assets/icons/withe_circle.svg';
 
+  /// File path: assets/icons/work.svg
+  String get work => 'assets/icons/work.svg';
+
   /// List of all assets
   List<String> get values => [
         apple,
@@ -61,7 +64,8 @@ class $AssetsIconsGen {
         quote,
         sound,
         time,
-        witheCircle
+        witheCircle,
+        work
       ];
 }
 

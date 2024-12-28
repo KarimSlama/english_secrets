@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                     if (formKey.currentState!.validate()) {
                       context.pushNamed(Routes.dashboardScreen);
                     }
-                  },
+                  }, width: double.infinity,
                 ),
               ],
             ),

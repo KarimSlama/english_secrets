@@ -1,6 +1,7 @@
 import 'package:english_secrets/core/di/get_it.dart';
 import 'package:english_secrets/core/routing/routes.dart';
 import 'package:english_secrets/english_secrets/course/course_screen.dart';
+import 'package:english_secrets/english_secrets/course_details/course_details_screen.dart';
 import 'package:english_secrets/english_secrets/dashboard/controller/dashboard_cubit.dart';
 import 'package:english_secrets/english_secrets/dashboard/dashboard_screen.dart';
 import 'package:english_secrets/english_secrets/forgot_password/forgot_password_screen.dart';
@@ -56,6 +57,11 @@ class AppRouter {
       case Routes.seeMoreScreen:
         return MaterialPageRoute(
           builder: (context) => SeeMoreScreen(),
+        );
+
+      case Routes.courseDetailsScreen:
+        return MaterialPageRoute(
+          builder: (context) => CourseDetailsScreen(),
         );
 
       default:
