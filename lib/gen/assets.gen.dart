@@ -33,17 +33,29 @@ class $AssetsIconsGen {
   /// File path: assets/icons/login.svg
   String get login => 'assets/icons/login.svg';
 
+  /// File path: assets/icons/paypal.svg
+  String get paypal => 'assets/icons/paypal.svg';
+
   /// File path: assets/icons/play.svg
   String get play => 'assets/icons/play.svg';
 
   /// File path: assets/icons/quote.svg
   String get quote => 'assets/icons/quote.svg';
 
+  /// File path: assets/icons/schdule.svg
+  String get schdule => 'assets/icons/schdule.svg';
+
   /// File path: assets/icons/sound.svg
   String get sound => 'assets/icons/sound.svg';
 
   /// File path: assets/icons/time.svg
   String get time => 'assets/icons/time.svg';
+
+  /// File path: assets/icons/visa.svg
+  String get visa => 'assets/icons/visa.svg';
+
+  /// File path: assets/icons/vodafone.svg
+  String get vodafone => 'assets/icons/vodafone.svg';
 
   /// File path: assets/icons/withe_circle.svg
   String get witheCircle => 'assets/icons/withe_circle.svg';
@@ -60,10 +72,14 @@ class $AssetsIconsGen {
         google,
         icons,
         login,
+        paypal,
         play,
         quote,
+        schdule,
         sound,
         time,
+        visa,
+        vodafone,
         witheCircle,
         work
       ];

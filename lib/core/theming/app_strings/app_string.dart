@@ -61,4 +61,18 @@ class AppString {
   static const String requirements = 'Requirements';
   static const String theCourseIncludes = 'The Course Includes';
   static const String obtainTheCourse = 'Obtain the Course';
+  static const String payment = 'Payment';
+  static const String rating = 'Rating';
+  static const String scheduleDate = 'Schedule Date';
+  static const String firstSessionStartWith = 'First Session Start with';
+  static const String selectPaymentMethod = 'Select Payment Method';
+  static const String creditCard = 'Credit Card';
+  static const String payPal = 'Pay Pal';
+  static const String vodafoneCash = 'Vodafone Cash';
+  static const String totalPayment = 'Total Payment';
+  static const String consultationFee = 'Consultation Fee';
+  static const String admin = 'Admin';
+  static const String free = 'Free';
+  static const String total = 'Total';
+  static const String pay = 'pay';
 }

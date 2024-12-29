@@ -1,13 +1,11 @@
 import 'package:english_secrets/core/helpers/extensions.dart';
 import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
 import 'package:english_secrets/core/theming/app_strings/app_string.dart';
-import 'package:english_secrets/core/widgets/button_widget.dart';
 import 'package:english_secrets/english_secrets/course_details/widget/course_include_widget.dart';
 import 'package:english_secrets/english_secrets/course_details/widget/num_of_users_and_feedback_widget.dart';
-import 'package:english_secrets/gen/assets.gen.dart';
+import 'package:english_secrets/english_secrets/course_details/widget/obtain_the_course_and_price_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:icon_broken/icon_broken.dart';
 
 class CourseDetailsScreen extends StatelessWidget {
@@ -79,18 +77,7 @@ class CourseDetailsScreen extends StatelessWidget {
                             ),
                       ),
                       CourseIncludeWidget(),
-                      Row(
-                        spacing: 10.w,
-                        children: [
-                          ButtonWidget(
-                            onBackPressed: () {},
-                            width: 160.w,
-                            btnText: AppString.obtainTheCourse,
-                          ),
-                          SvgPicture.asset(Assets.icons.work, width: 30.w),
-                          Text('3,000 EGp'),
-                        ],
-                      ),
+                      ObtainTheCourseAndPriceWidget(),
                     ],
                   ),
                 ),
