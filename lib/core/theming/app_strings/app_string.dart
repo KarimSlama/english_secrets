@@ -46,6 +46,7 @@ class AppString {
       'Don’t have account? Let’s create!';
   static const String alreadyHaveAccount = 'Already have an account ?';
   static const String next = 'Next';
+  static const String save = 'Save';
   static const String pleaseEnterAvalidName = 'Please Enter a Valid Name';
   static const String pleaseEnterAvalidEmail = 'Please Enter a Valid Email';
   static const String pleaseEnterAvalidPhone = 'Please Enter a Valid Phone';
