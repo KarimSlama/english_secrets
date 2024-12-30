@@ -12,7 +12,7 @@ class PayCourseButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ButtonWidget(
         onBackPressed: () {
-          context.pushNamed(Routes.successfulPaymentScreen);
+          context.pushNamed(Routes.enrollmentSuccessScreen);
         },
         btnText: AppString.pay,
         width: 160.w);

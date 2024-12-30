@@ -1,8 +1,8 @@
 import 'package:english_secrets/core/helpers/spacing.dart';
 import 'package:english_secrets/core/theming/app_strings/app_string.dart';
 import 'package:english_secrets/core/widgets/app_bar_widget.dart';
+import 'package:english_secrets/core/widgets/course_schedule_date_widget.dart';
 import 'package:english_secrets/english_secrets/obtain_course/widget/course_rating_widget.dart';
-import 'package:english_secrets/english_secrets/obtain_course/widget/course_schedule_date_widget.dart';
 import 'package:english_secrets/english_secrets/obtain_course/widget/payment_method_widget.dart';
 import 'package:english_secrets/english_secrets/obtain_course/widget/total_payment_widget.dart';
 import 'package:flutter/material.dart';
