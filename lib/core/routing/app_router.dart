@@ -7,6 +7,7 @@ import 'package:english_secrets/english_secrets/dashboard/controller/dashboard_c
 import 'package:english_secrets/english_secrets/dashboard/dashboard_screen.dart';
 import 'package:english_secrets/english_secrets/edit_profile/edit_profile_screen.dart';
 import 'package:english_secrets/english_secrets/enrollment_success/enrollment_success_screen.dart';
+import 'package:english_secrets/english_secrets/faqs/faqs_screen.dart';
 import 'package:english_secrets/english_secrets/forgot_password/forgot_password_screen.dart';
 import 'package:english_secrets/english_secrets/login/login_screen.dart';
 import 'package:english_secrets/english_secrets/obtain_course/obtain_course_screen.dart';
@@ -98,6 +99,11 @@ class AppRouter {
       case Routes.supportScreen:
         return MaterialPageRoute(
           builder: (context) => SupportScreen(),
+        );
+
+      case Routes.faqsScreen:
+        return MaterialPageRoute(
+          builder: (context) => FaqsScreen(),
         );
 
       default:

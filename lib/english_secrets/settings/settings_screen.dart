@@ -19,7 +19,9 @@ class SettingsScreen extends StatelessWidget {
         icon: Assets.icons.faqs,
         title: AppString.faqs,
         isSwitch: false,
-        onTap: () {},
+        onTap: () {
+          context.pushNamed(Routes.faqsScreen);
+        },
       ),
       SettingItemModel(
         icon: Assets.icons.mode,
