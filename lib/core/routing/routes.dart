@@ -14,5 +14,6 @@ class Routes {
   static const String settingsScreen = '/settingsScreen';
   static const String aboutUsScreen = '/aboutUsScreen';
   static const String supportScreen = '/supportScreen';
+  static const String faqsScreen = '/faqsScreen';
   static const String testimonialScreen = '/testimonialScreen';
 }
