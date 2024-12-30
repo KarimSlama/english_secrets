@@ -45,7 +45,9 @@ class ProfileScreen extends StatelessWidget {
         ProfileOptionsWidget(
           icon: Assets.icons.setting,
           title: AppString.settings,
-          onTapped: () {},
+          onTapped: () {
+            context.pushNamed(Routes.settingsScreen);
+          },
         ),
         ProfileOptionsWidget(
           icon: Assets.icons.notification,

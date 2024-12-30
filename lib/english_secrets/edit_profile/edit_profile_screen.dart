@@ -20,66 +20,68 @@ class EditProfileScreen extends StatelessWidget {
         child: Padding(
           padding: const EdgeInsetsDirectional.symmetric(
               horizontal: 14, vertical: 18),
-          child: Column(
-            spacing: 20.h,
-            children: [
-              Stack(
-                alignment: AlignmentDirectional.bottomEnd,
-                children: [
-                  CircleAvatar(
-                    radius: 80,
-                    child: Assets.images.user2.image(),
-                  ),
-                  IconButton(
-                    onPressed: () {},
-                    icon: CircleAvatar(
-                      backgroundColor: AppColors.grey,
-                      child: Icon(
-                        IconBroken.Edit,
+          child: SingleChildScrollView(
+            child: Column(
+              spacing: 20.h,
+              children: [
+                Stack(
+                  alignment: AlignmentDirectional.bottomEnd,
+                  children: [
+                    CircleAvatar(
+                      radius: 80,
+                      child: Assets.images.user2.image(),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: CircleAvatar(
+                        backgroundColor: AppColors.grey,
+                        child: Icon(
+                          IconBroken.Edit,
+                        ),
                       ),
                     ),
-                  ),
-                ],
-              ),
-              TextInputFieldsWidget(
-                controller: controller,
-                textInputType: TextInputType.text,
-                label: AppString.name,
-                prefixIcon: IconBroken.Profile,
-                validate: (value) {
-                  if (value == null || value.isEmpty) {
-                    return AppString.pleaseEnterAvalidName;
-                  }
-                },
-              ),
-              TextInputFieldsWidget(
-                controller: controller,
-                textInputType: TextInputType.text,
-                label: AppString.email,
-                prefixIcon: IconBroken.Message,
-                validate: (value) {
-                  if (value == null || value.isEmpty) {
-                    return AppString.pleaseEnterAvalidEmail;
-                  }
-                },
-              ),
-              TextInputFieldsWidget(
-                controller: controller,
-                textInputType: TextInputType.phone,
-                label: AppString.phone,
-                prefixIcon: IconBroken.Calling,
-                validate: (value) {
-                  if (value == null || value.isEmpty) {
-                    return AppString.pleaseEnterAvalidPhone;
-                  }
-                },
-              ),
-              ButtonWidget(
-                onBackPressed: () {},
-                btnText: AppString.save,
-                width: double.infinity,
-              ),
-            ],
+                  ],
+                ),
+                TextInputFieldsWidget(
+                  controller: controller,
+                  textInputType: TextInputType.text,
+                  label: AppString.name,
+                  prefixIcon: IconBroken.Profile,
+                  validate: (value) {
+                    if (value == null || value.isEmpty) {
+                      return AppString.pleaseEnterAvalidName;
+                    }
+                  },
+                ),
+                TextInputFieldsWidget(
+                  controller: controller,
+                  textInputType: TextInputType.text,
+                  label: AppString.email,
+                  prefixIcon: IconBroken.Message,
+                  validate: (value) {
+                    if (value == null || value.isEmpty) {
+                      return AppString.pleaseEnterAvalidEmail;
+                    }
+                  },
+                ),
+                TextInputFieldsWidget(
+                  controller: controller,
+                  textInputType: TextInputType.phone,
+                  label: AppString.phone,
+                  prefixIcon: IconBroken.Calling,
+                  validate: (value) {
+                    if (value == null || value.isEmpty) {
+                      return AppString.pleaseEnterAvalidPhone;
+                    }
+                  },
+                ),
+                ButtonWidget(
+                  onBackPressed: () {},
+                  btnText: AppString.save,
+                  width: double.infinity,
+                ),
+              ],
+            ),
           ),
         ),
       ),
