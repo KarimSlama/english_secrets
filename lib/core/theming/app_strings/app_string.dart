@@ -75,4 +75,9 @@ class AppString {
   static const String free = 'Free';
   static const String total = 'Total';
   static const String pay = 'pay';
+  static const String youHaveSuccessfullyEnrollInThisCourse =
+      'You have successfully Enroll in this Course';
+  static const String theEnrollmentConfirmationHasBeenSendToYourEmail =
+      'The Enrollment confirmation has been send to your email.';
+  static const String backToHome = 'Back to home';
 }

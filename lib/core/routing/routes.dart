@@ -9,5 +9,5 @@ class Routes {
   static const String seeMoreScreen = '/seeMoreScreen';
   static const String courseDetailsScreen = '/courseDetailsScreen';
   static const String obtainCourseScreen = '/obtainCourseScreen';
-  static const String successfulPaymentScreen = '/successfulPaymentScreen';
+  static const String enrollmentSuccessScreen = '/enrollmentSuccessScreen';
 }
