@@ -10,4 +10,5 @@ class Routes {
   static const String courseDetailsScreen = '/courseDetailsScreen';
   static const String obtainCourseScreen = '/obtainCourseScreen';
   static const String enrollmentSuccessScreen = '/enrollmentSuccessScreen';
+  static const String editProfileScreen = '/editProfileScreen';
 }

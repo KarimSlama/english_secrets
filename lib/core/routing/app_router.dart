@@ -4,6 +4,7 @@ import 'package:english_secrets/english_secrets/course/course_screen.dart';
 import 'package:english_secrets/english_secrets/course_details/course_details_screen.dart';
 import 'package:english_secrets/english_secrets/dashboard/controller/dashboard_cubit.dart';
 import 'package:english_secrets/english_secrets/dashboard/dashboard_screen.dart';
+import 'package:english_secrets/english_secrets/edit_profile/edit_profile_screen.dart';
 import 'package:english_secrets/english_secrets/enrollment_success/enrollment_success_screen.dart';
 import 'package:english_secrets/english_secrets/forgot_password/forgot_password_screen.dart';
 import 'package:english_secrets/english_secrets/login/login_screen.dart';
@@ -74,6 +75,11 @@ class AppRouter {
       case Routes.enrollmentSuccessScreen:
         return MaterialPageRoute(
           builder: (context) => EnrollmentSuccessScreen(),
+        );
+
+      case Routes.editProfileScreen:
+        return MaterialPageRoute(
+          builder: (context) => EditProfileScreen(),
         );
 
       default:
