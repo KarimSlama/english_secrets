@@ -158,6 +158,15 @@ class $AssetsImagesGen {
   /// File path: assets/images/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/logo.png');
 
+  /// File path: assets/images/our_goal.json
+  String get ourGoal => 'assets/images/our_goal.json';
+
+  /// File path: assets/images/our_mission.json
+  String get ourMission => 'assets/images/our_mission.json';
+
+  /// File path: assets/images/our_vision.json
+  String get ourVision => 'assets/images/our_vision.json';
+
   /// File path: assets/images/user.png
   AssetGenImage get user => const AssetGenImage('assets/images/user.png');
 
@@ -174,8 +183,18 @@ class $AssetsImagesGen {
   AssetGenImage get user4 => const AssetGenImage('assets/images/user_4.png');
 
   /// List of all assets
-  List<AssetGenImage> get values =>
-      [image, logo, user, user1, user2, user3, user4];
+  List<dynamic> get values => [
+        image,
+        logo,
+        ourGoal,
+        ourMission,
+        ourVision,
+        user,
+        user1,
+        user2,
+        user3,
+        user4
+      ];
 }
 
 class Assets {
