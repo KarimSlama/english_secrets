@@ -16,8 +16,8 @@ class SettingsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<SettingItemModel> generalSettings = [
       SettingItemModel(
-        icon: Assets.icons.setting,
-        title: 'General',
+        icon: Assets.icons.faqs,
+        title: AppString.faqs,
         isSwitch: false,
         onTap: () {},
       ),
@@ -46,12 +46,6 @@ class SettingsScreen extends StatelessWidget {
         isSwitch: true,
         switchValue: false,
         onSwitchChanged: (value) {},
-      ),
-      SettingItemModel(
-        icon: Assets.icons.faqs,
-        title: AppString.faqs,
-        isSwitch: false,
-        onTap: () {},
       ),
       SettingItemModel(
         icon: Assets.icons.testimonials,
@@ -86,7 +80,9 @@ class SettingsScreen extends StatelessWidget {
         icon: Assets.icons.support,
         title: AppString.support,
         isSwitch: false,
-        onTap: () {},
+        onTap: () {
+          context.pushNamed(Routes.supportScreen);
+        },
       ),
     ];
 

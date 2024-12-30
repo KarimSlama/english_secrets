@@ -49,6 +49,10 @@ dependencies:
   animation_list: ^3.1.0
   # Blast colorful confetti all over the screen. Celebrate in app achievements with style. Control the velocity, angle, gravity and amount of confetti.
   confetti: ^0.8.0
+  # Flutter plugin for launching a URL. Supports web, phone, SMS, and email schemes.
+  url_launcher: ^6.2.5
+  # Toast Library for Flutter, Easily create toast messages in single line of code
+  fluttertoast: ^8.2.10
   icon_broken: ^1.1.0
   lottie: ^3.3.0
 

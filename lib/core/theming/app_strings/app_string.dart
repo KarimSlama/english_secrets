@@ -15,6 +15,8 @@ class AppString {
   static const String apple = 'Apple';
   static const String google = 'Google';
   static const String facebook = 'Facebook';
+  static const String whatsapp = 'Whatsapp';
+  static const String link = 'English-Secrets';
   static const String byContinuingYouAgreeTermsOfServicesPrivacyPolicy =
       'By continuing you agree Terms of Services & Privacy Policy ';
   static const String challenges = 'Challenges';
@@ -108,4 +110,16 @@ class AppString {
       'Our goal is to provide an interactive and comprehensive learning experience, enabling users to master English skills effectively and confidently. We aim to simplify the journey towards achieving high scores in IELTS and excelling in global communication.';
   static const String ourVisionDescription =
       '"Our vision is to create a world where language barriers no longer exist, empowering individuals to connect, grow, and succeed. We envision a future where mastering English opens doors to endless opportunities.';
+  static const String contactUs = 'Contact Us';
+  static const String
+      ifYouHaveAnyInquiresGetInTouchWithUsWeWillBeHappyToHelpYou =
+      'If you have any inquires get in touch with us. We\'ll be happy to help you';
+  static const String chatWithUs = 'Chat with us';
+  static const String chatWithOurAssistantNow = 'Chat with our assistant now';
+  static const String callUs = 'Call us';
+  static const String weAreAvailableFromTwelveToTwelve =
+      'We\'r available from 12 AM - 12 PM CAIRO TZ';
+  static const String emailUs = 'Email us';
+  static const String weWillGetBackWithin = 'We\'ll get back within 24hrs';
+  static const String ourSocialMedia = 'Our Social media';
 }
