@@ -99,4 +99,13 @@ class AppString {
   static const String rateEnglishSecrets = 'Rate English Secrets';
   static const String shareWithFriends = 'Share with Friends';
   static const String support = 'Support';
+  static const String ourMission = 'Our Mission';
+  static const String ourGoal = 'Our Goal';
+  static const String ourVision = 'Our Vision';
+  static const String ourMissionDescription =
+      'Our mission is to provide you with the tools and guidance you need to excel in English and achieve your IELTS goals effortlessly.';
+  static const String ourGoalDescription =
+      'Our goal is to provide an interactive and comprehensive learning experience, enabling users to master English skills effectively and confidently. We aim to simplify the journey towards achieving high scores in IELTS and excelling in global communication.';
+  static const String ourVisionDescription =
+      '"Our vision is to create a world where language barriers no longer exist, empowering individuals to connect, grow, and succeed. We envision a future where mastering English opens doors to endless opportunities.';
 }
