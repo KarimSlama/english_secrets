@@ -18,8 +18,14 @@ class $AssetsIconsGen {
   /// File path: assets/icons/check.svg
   String get check => 'assets/icons/check.svg';
 
+  /// File path: assets/icons/document.svg
+  String get document => 'assets/icons/document.svg';
+
   /// File path: assets/icons/dots.svg
   String get dots => 'assets/icons/dots.svg';
+
+  /// File path: assets/icons/edit_square.svg
+  String get editSquare => 'assets/icons/edit_square.svg';
 
   /// File path: assets/icons/facebook.svg
   String get facebook => 'assets/icons/facebook.svg';
@@ -36,6 +42,12 @@ class $AssetsIconsGen {
   /// File path: assets/icons/login.svg
   String get login => 'assets/icons/login.svg';
 
+  /// File path: assets/icons/logout.svg
+  String get logout => 'assets/icons/logout.svg';
+
+  /// File path: assets/icons/notification.svg
+  String get notification => 'assets/icons/notification.svg';
+
   /// File path: assets/icons/paypal.svg
   String get paypal => 'assets/icons/paypal.svg';
 
@@ -47,6 +59,9 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/schdule.svg
   String get schdule => 'assets/icons/schdule.svg';
+
+  /// File path: assets/icons/setting.svg
+  String get setting => 'assets/icons/setting.svg';
 
   /// File path: assets/icons/sound.svg
   String get sound => 'assets/icons/sound.svg';
@@ -60,6 +75,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/vodafone.svg
   String get vodafone => 'assets/icons/vodafone.svg';
 
+  /// File path: assets/icons/wallet.svg
+  String get wallet => 'assets/icons/wallet.svg';
+
   /// File path: assets/icons/withe_circle.svg
   String get witheCircle => 'assets/icons/withe_circle.svg';
 
@@ -70,20 +88,26 @@ class $AssetsIconsGen {
   List<String> get values => [
         apple,
         check,
+        document,
         dots,
+        editSquare,
         facebook,
         fullScreen,
         google,
         icons,
         login,
+        logout,
+        notification,
         paypal,
         play,
         quote,
         schdule,
+        setting,
         sound,
         time,
         visa,
         vodafone,
+        wallet,
         witheCircle,
         work
       ];
