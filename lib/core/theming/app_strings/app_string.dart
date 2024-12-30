@@ -80,4 +80,11 @@ class AppString {
   static const String theEnrollmentConfirmationHasBeenSendToYourEmail =
       'The Enrollment confirmation has been send to your email.';
   static const String backToHome = 'Back to home';
+  static const String profile = 'Profile';
+  static const String editProfile = 'Edit Profile';
+  static const String paymentMethods = 'Payment Methods';
+  static const String settings = 'Settings';
+  static const String learningReminder = 'Learning Reminder';
+  static const String testMarks = 'Test Marks';
+  static const String logout = 'Logout';
 }
