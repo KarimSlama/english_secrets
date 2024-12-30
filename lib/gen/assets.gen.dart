@@ -12,6 +12,9 @@ import 'package:flutter/widgets.dart';
 class $AssetsIconsGen {
   const $AssetsIconsGen();
 
+  /// File path: assets/icons/about.svg
+  String get about => 'assets/icons/about.svg';
+
   /// File path: assets/icons/apple.svg
   String get apple => 'assets/icons/apple.svg';
 
@@ -30,6 +33,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/facebook.svg
   String get facebook => 'assets/icons/facebook.svg';
 
+  /// File path: assets/icons/faqs.svg
+  String get faqs => 'assets/icons/faqs.svg';
+
   /// File path: assets/icons/full_screen.svg
   String get fullScreen => 'assets/icons/full_screen.svg';
 
@@ -44,6 +50,9 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/logout.svg
   String get logout => 'assets/icons/logout.svg';
+
+  /// File path: assets/icons/mode.svg
+  String get mode => 'assets/icons/mode.svg';
 
   /// File path: assets/icons/notification.svg
   String get notification => 'assets/icons/notification.svg';
@@ -60,11 +69,26 @@ class $AssetsIconsGen {
   /// File path: assets/icons/schdule.svg
   String get schdule => 'assets/icons/schdule.svg';
 
+  /// File path: assets/icons/security.svg
+  String get security => 'assets/icons/security.svg';
+
   /// File path: assets/icons/setting.svg
   String get setting => 'assets/icons/setting.svg';
 
+  /// File path: assets/icons/share.svg
+  String get share => 'assets/icons/share.svg';
+
   /// File path: assets/icons/sound.svg
   String get sound => 'assets/icons/sound.svg';
+
+  /// File path: assets/icons/star.svg
+  String get star => 'assets/icons/star.svg';
+
+  /// File path: assets/icons/support.svg
+  String get support => 'assets/icons/support.svg';
+
+  /// File path: assets/icons/testimonials.svg
+  String get testimonials => 'assets/icons/testimonials.svg';
 
   /// File path: assets/icons/time.svg
   String get time => 'assets/icons/time.svg';
@@ -74,6 +98,9 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/vodafone.svg
   String get vodafone => 'assets/icons/vodafone.svg';
+
+  /// File path: assets/icons/volume.svg
+  String get volume => 'assets/icons/volume.svg';
 
   /// File path: assets/icons/wallet.svg
   String get wallet => 'assets/icons/wallet.svg';
@@ -86,27 +113,36 @@ class $AssetsIconsGen {
 
   /// List of all assets
   List<String> get values => [
+        about,
         apple,
         check,
         document,
         dots,
         editSquare,
         facebook,
+        faqs,
         fullScreen,
         google,
         icons,
         login,
         logout,
+        mode,
         notification,
         paypal,
         play,
         quote,
         schdule,
+        security,
         setting,
+        share,
         sound,
+        star,
+        support,
+        testimonials,
         time,
         visa,
         vodafone,
+        volume,
         wallet,
         witheCircle,
         work

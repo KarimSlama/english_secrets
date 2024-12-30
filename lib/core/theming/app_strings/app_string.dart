@@ -88,4 +88,15 @@ class AppString {
   static const String learningReminder = 'Learning Reminder';
   static const String testMarks = 'Test Marks';
   static const String logout = 'Logout';
+  static const String general = 'General';
+  static const String darkMode = 'Dark Mode';
+  static const String notification = 'Notifications';
+  static const String security = 'Security';
+  static const String sounds = 'Sounds';
+  static const String aboutUs = 'About Us';
+  static const String faqs = 'FAQS';
+  static const String testimonials = 'Testimonials';
+  static const String rateEnglishSecrets = 'Rate English Secrets';
+  static const String shareWithFriends = 'Share with Friends';
+  static const String support = 'Support';
 }
