@@ -18,6 +18,12 @@ class $AssetsIconsGen {
   /// File path: assets/icons/apple.svg
   String get apple => 'assets/icons/apple.svg';
 
+  /// File path: assets/icons/call.svg
+  String get call => 'assets/icons/call.svg';
+
+  /// File path: assets/icons/chat.svg
+  String get chat => 'assets/icons/chat.svg';
+
   /// File path: assets/icons/check.svg
   String get check => 'assets/icons/check.svg';
 
@@ -44,6 +50,9 @@ class $AssetsIconsGen {
 
   /// File path: assets/icons/icons.ttf
   String get icons => 'assets/icons/icons.ttf';
+
+  /// File path: assets/icons/link.svg
+  String get link => 'assets/icons/link.svg';
 
   /// File path: assets/icons/login.svg
   String get login => 'assets/icons/login.svg';
@@ -105,6 +114,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/wallet.svg
   String get wallet => 'assets/icons/wallet.svg';
 
+  /// File path: assets/icons/whatsapp.svg
+  String get whatsapp => 'assets/icons/whatsapp.svg';
+
   /// File path: assets/icons/withe_circle.svg
   String get witheCircle => 'assets/icons/withe_circle.svg';
 
@@ -115,6 +127,8 @@ class $AssetsIconsGen {
   List<String> get values => [
         about,
         apple,
+        call,
+        chat,
         check,
         document,
         dots,
@@ -124,6 +138,7 @@ class $AssetsIconsGen {
         fullScreen,
         google,
         icons,
+        link,
         login,
         logout,
         mode,
@@ -144,6 +159,7 @@ class $AssetsIconsGen {
         vodafone,
         volume,
         wallet,
+        whatsapp,
         witheCircle,
         work
       ];

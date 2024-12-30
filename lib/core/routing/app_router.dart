@@ -15,6 +15,7 @@ import 'package:english_secrets/english_secrets/register/register_screen.dart';
 import 'package:english_secrets/english_secrets/see_more/see_more_screen.dart';
 import 'package:english_secrets/english_secrets/settings/settings_screen.dart';
 import 'package:english_secrets/english_secrets/splash/splash_screen.dart';
+import 'package:english_secrets/english_secrets/support/support_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -92,6 +93,11 @@ class AppRouter {
       case Routes.aboutUsScreen:
         return MaterialPageRoute(
           builder: (context) => AboutUsScreen(),
+        );
+
+      case Routes.supportScreen:
+        return MaterialPageRoute(
+          builder: (context) => SupportScreen(),
         );
 
       default:
