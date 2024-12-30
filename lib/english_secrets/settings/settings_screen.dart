@@ -39,8 +39,9 @@ class SettingsScreen extends StatelessWidget {
       SettingItemModel(
         icon: Assets.icons.notification,
         title: AppString.notification,
-        isSwitch: false,
-        onTap: () {},
+        isSwitch: true,
+        switchValue: false,
+        onSwitchChanged: (value) {},
       ),
       SettingItemModel(
         icon: Assets.icons.volume,
@@ -53,7 +54,9 @@ class SettingsScreen extends StatelessWidget {
         icon: Assets.icons.testimonials,
         title: AppString.testimonials,
         isSwitch: false,
-        onTap: () {},
+        onTap: () {
+          context.pushNamed(Routes.testimonialScreen);
+        },
       ),
     ];
 
