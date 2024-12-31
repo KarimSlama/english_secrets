@@ -4,6 +4,7 @@ import 'package:english_secrets/core/theming/app_strings/app_string.dart';
 import 'package:english_secrets/english_secrets/course_details/widget/course_include_widget.dart';
 import 'package:english_secrets/english_secrets/course_details/widget/num_of_users_and_feedback_widget.dart';
 import 'package:english_secrets/english_secrets/course_details/widget/obtain_the_course_and_price_widget.dart';
+import 'package:english_secrets/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icon_broken/icon_broken.dart';
@@ -40,8 +41,7 @@ class CourseDetailsScreen extends StatelessWidget {
                   borderRadius: BorderRadiusDirectional.circular(20),
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: NetworkImage(
-                        'https://img.freepik.com/free-photo/student-class-looking-course_23-2148888810.jpg?uid=R50433035&ga=GA1.1.1043572054.1723626862&semt=ais_hybrid'),
+                    image: AssetImage(Assets.images.course.path),
                   ),
                 ),
               ),

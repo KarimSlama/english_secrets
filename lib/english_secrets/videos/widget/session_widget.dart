@@ -1,4 +1,5 @@
 import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
+import 'package:english_secrets/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -17,8 +18,8 @@ class SessionWidget extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(8),
-              child: Image.network(
-                'https://img.freepik.com/free-photo/student-class-looking-course_23-2148888810.jpg?uid=R50433035&ga=GA1.1.1043572054.1723626862&semt=ais_hybrid',
+              child: Image(
+                image: AssetImage(Assets.images.course.path),
                 width: 60.w,
                 height: 60.h,
                 fit: BoxFit.cover,

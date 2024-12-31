@@ -168,6 +168,17 @@ class $AssetsIconsGen {
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/background.png
+  AssetGenImage get background =>
+      const AssetGenImage('assets/images/background.png');
+
+  /// File path: assets/images/course.png
+  AssetGenImage get course => const AssetGenImage('assets/images/course.png');
+
+  /// File path: assets/images/icon_logo.png
+  AssetGenImage get iconLogo =>
+      const AssetGenImage('assets/images/icon_logo.png');
+
   /// File path: assets/images/image.png
   AssetGenImage get image => const AssetGenImage('assets/images/image.png');
 
@@ -200,6 +211,9 @@ class $AssetsImagesGen {
 
   /// List of all assets
   List<dynamic> get values => [
+        background,
+        course,
+        iconLogo,
         image,
         logo,
         ourGoal,

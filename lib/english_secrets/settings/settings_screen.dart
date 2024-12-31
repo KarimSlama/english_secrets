@@ -3,6 +3,7 @@ import 'package:english_secrets/core/helpers/spacing.dart';
 import 'package:english_secrets/core/routing/routes.dart';
 import 'package:english_secrets/core/theming/app_strings/app_string.dart';
 import 'package:english_secrets/core/widgets/app_bar_widget.dart';
+import 'package:english_secrets/english_secrets/settings/data/const/app_rating.dart';
 import 'package:english_secrets/english_secrets/settings/data/model/setting_item_model.dart';
 import 'package:english_secrets/english_secrets/settings/widget/section_title_widget.dart';
 import 'package:english_secrets/english_secrets/settings/widget/setting_title_widget.dart';
@@ -29,12 +30,6 @@ class SettingsScreen extends StatelessWidget {
         isSwitch: true,
         switchValue: false,
         onSwitchChanged: (value) {},
-      ),
-      SettingItemModel(
-        icon: Assets.icons.security,
-        title: AppString.security,
-        isSwitch: false,
-        onTap: () {},
       ),
       SettingItemModel(
         icon: Assets.icons.notification,
@@ -65,7 +60,9 @@ class SettingsScreen extends StatelessWidget {
         icon: Assets.icons.star,
         title: AppString.rateEnglishSecrets,
         isSwitch: false,
-        onTap: () {},
+        onTap: () {
+          AppRating.showRateDialog(context);
+        },
       ),
       SettingItemModel(
         icon: Assets.icons.share,

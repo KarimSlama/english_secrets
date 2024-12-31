@@ -52,7 +52,9 @@ class ProfileScreen extends StatelessWidget {
         ProfileOptionsWidget(
           icon: Assets.icons.notification,
           title: AppString.learningReminder,
-          onTapped: () {},
+          onTapped: () {
+            context.pushNamed(Routes.learningReminderScreen);
+          },
         ),
         ProfileOptionsWidget(
           icon: Assets.icons.document,

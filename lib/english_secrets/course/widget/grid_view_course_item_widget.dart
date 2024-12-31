@@ -1,6 +1,7 @@
 import 'package:english_secrets/core/helpers/extensions.dart';
 import 'package:english_secrets/core/routing/routes.dart';
 import 'package:english_secrets/core/theming/app_colors/app_colors.dart';
+import 'package:english_secrets/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:icon_broken/icon_broken.dart';
@@ -33,9 +34,7 @@ class GridViewCourseItemWidget extends StatelessWidget {
                 ),
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: NetworkImage(
-                    'https://img.freepik.com/free-photo/student-class-looking-course_23-2148888810.jpg?uid=R50433035&ga=GA1.1.1043572054.1723626862&semt=ais_hybrid',
-                  ),
+                  image: AssetImage(Assets.images.course.path),
                 ),
               ),
             ),

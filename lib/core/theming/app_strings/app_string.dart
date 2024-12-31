@@ -122,4 +122,13 @@ class AppString {
   static const String emailUs = 'Email us';
   static const String weWillGetBackWithin = 'We\'ll get back within 24hrs';
   static const String ourSocialMedia = 'Our Social media';
+  static const String rateOurApp = 'Rate Our App';
+  static const String weWouldLoveToHearYourFeedback =
+      'We would love to hear your feedback!';
+  static const String thanksForRatingUs =
+      'Thanks for rating our app, we appreciate your time and kindness';
+  static const String notifyMeWhenNewSessionAdded =
+      'Notify me when new Sessions added';
+  static const String notifyMeWhenNewQuizzesAdded =
+      'Notify me when new Quizzes added';
 }
