@@ -331,14 +331,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.14.2"
-  flutter_lints:
-    dependency: "direct dev"
+  flutter_rating_bar:
+    dependency: "direct main"
     description:
-      name: flutter_lints
-      sha256: "5398f14efa795ffb7a33e9b6a08798b26a180edac4ad7db3f231e40f82ce11e1"
+      name: flutter_rating_bar
+      sha256: d2af03469eac832c591a1eba47c91ecc871fe5708e69967073c043b2d775ed93
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.0"
+    version: "4.0.1"
   flutter_screenutil:
     dependency: "direct main"
     description:
@@ -533,14 +533,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.1"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      sha256: c35bb79562d980e9a453fc715854e1ed39e24e7d0297a880ef54e17f9874a9d7
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.1.1"
   loading_animation_widget:
     dependency: "direct main"
     description:

@@ -9,6 +9,7 @@ import 'package:english_secrets/english_secrets/edit_profile/edit_profile_screen
 import 'package:english_secrets/english_secrets/enrollment_success/enrollment_success_screen.dart';
 import 'package:english_secrets/english_secrets/faqs/faqs_screen.dart';
 import 'package:english_secrets/english_secrets/forgot_password/forgot_password_screen.dart';
+import 'package:english_secrets/english_secrets/learning_reminder/learning_reminder_screen.dart';
 import 'package:english_secrets/english_secrets/login/login_screen.dart';
 import 'package:english_secrets/english_secrets/obtain_course/obtain_course_screen.dart';
 import 'package:english_secrets/english_secrets/on_boarding/on_boarding_screen.dart';
@@ -110,6 +111,11 @@ class AppRouter {
       case Routes.testimonialScreen:
         return MaterialPageRoute(
           builder: (context) => TestimonialsScreen(),
+        );
+
+      case Routes.learningReminderScreen:
+        return MaterialPageRoute(
+          builder: (context) => LearningReminderScreen(),
         );
 
       default:

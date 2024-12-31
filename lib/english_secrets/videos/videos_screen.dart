@@ -3,6 +3,7 @@ import 'package:english_secrets/core/helpers/separator.dart';
 import 'package:english_secrets/core/theming/app_strings/app_string.dart';
 import 'package:english_secrets/english_secrets/videos/widget/session_widget.dart';
 import 'package:english_secrets/english_secrets/videos/widget/video_icons_widget.dart';
+import 'package:english_secrets/gen/assets.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -25,8 +26,7 @@ class VideosScreen extends StatelessWidget {
                 borderRadius: BorderRadiusDirectional.circular(20),
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: NetworkImage(
-                      'https://img.freepik.com/free-photo/student-class-looking-course_23-2148888810.jpg?uid=R50433035&ga=GA1.1.1043572054.1723626862&semt=ais_hybrid'),
+                  image:  AssetImage(Assets.images.course.path),
                 ),
               ),
             ),
