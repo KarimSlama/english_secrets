@@ -18,7 +18,7 @@ class EnglishSecretsApp extends StatelessWidget {
       child: MaterialApp(
         title: AppString.englishSecrets,
         debugShowCheckedModeBanner: false,
-        initialRoute: Routes.dashboardScreen,
+        initialRoute: Routes.splashScreen,
         onGenerateRoute: appRouter.generateRoute,
         theme: themeLight,
         // darkTheme: themeDark,
