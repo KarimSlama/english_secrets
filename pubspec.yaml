@@ -55,6 +55,8 @@ dependencies:
   fluttertoast: ^8.2.10
   # A simple yet fully customizable ratingbar for flutter which also include a rating bar indicator, supporting any fraction of rating.
   flutter_rating_bar: ^4.0.1
+
+  showcaseview: ^3.0.0
   icon_broken: ^1.1.0
   lottie: ^3.3.0
 
@@ -64,12 +66,12 @@ dev_dependencies:
     sdk: flutter
 
 flutter_icons:
-  image_path_android: "assets/images/icon_logo.png"
-  image_path_ios: "assets/images/icon_logo.png"
+  image_path_android: "assets/images/logo_ic.png"
+  image_path_ios: "assets/images/logo_ic.png"
   android: true # can specify file name here e.g. "ic_launcher"
   ios: true # can specify file name here e.g. "My-Launcher-Icon"
   adaptive_icon_background: "assets/images/background.png"
-  adaptive_icon_foreground: "assets/images/icon_logo.png"
+  adaptive_icon_foreground: "assets/images/logo_ic.png"
 
 
   flutter_lints: ^5.0.0

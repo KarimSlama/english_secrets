@@ -16,17 +16,17 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
 
   final List<Widget> _teamWidgets = [
     CardWithDataWidget(
-        icon: Assets.images.ourMission,
-        title: AppString.ourMission,
-        subTitle: AppString.ourMissionDescription),
+        icon: Assets.images.ourVision,
+        title: AppString.ourVision,
+        subTitle: AppString.ourVisionDescription),
     CardWithDataWidget(
         icon: Assets.images.ourGoal,
         title: AppString.ourGoal,
         subTitle: AppString.ourGoalDescription),
     CardWithDataWidget(
-        icon: Assets.images.ourVision,
-        title: AppString.ourVision,
-        subTitle: AppString.ourVisionDescription),
+        icon: Assets.images.ourMission,
+        title: AppString.ourMission,
+        subTitle: AppString.ourMissionDescription),
   ];
 
   final List<Widget> _displayedWidgets = [];
@@ -45,8 +45,7 @@ class _AboutUsScreenState extends State<AboutUsScreen> {
     }
   }
 
-  Widget _buildAnimatedTile(
-      context,index, Animation<double> animation) {
+  Widget _buildAnimatedTile(context, index, Animation<double> animation) {
     return SlideTransition(
       position: Tween<Offset>(
         begin: const Offset(0, 1),

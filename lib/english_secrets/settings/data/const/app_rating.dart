@@ -23,7 +23,7 @@ class AppRating {
           child: child,
         );
       },
-      transitionDuration: const Duration(milliseconds: 500),
+      transitionDuration: const Duration(milliseconds: 400),
       pageBuilder: (context, animation, secondaryAnimation) {
         return Center(
           child: Material(

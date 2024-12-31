@@ -18,10 +18,10 @@ class _TestimonialsScreenState extends State<TestimonialsScreen> {
   @override
   void initState() {
     super.initState();
-    _addItemsWithDelay();
+    addItemsWithDelay();
   }
 
-  void _addItemsWithDelay() async {
+  void addItemsWithDelay() async {
     final widgets = [
       TestimonialCardWidget(
         image: Assets.images.user2.path,
@@ -64,24 +64,22 @@ class _TestimonialsScreenState extends State<TestimonialsScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBarWidget(title: AppString.testimonials),
-      body: Expanded(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 14),
-          child: AnimatedList(
-            key: _listKey,
-            initialItemCount: _items.length,
-            itemBuilder: (context, index, animation) {
-              return SlideTransition(
-                position: animation.drive(
-                  Tween<Offset>(
-                    begin: const Offset(0, 1),
-                    end: Offset.zero,
-                  ).chain(CurveTween(curve: Curves.easeOut)),
-                ),
-                child: _items[index],
-              );
-            },
-          ),
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 14),
+        child: AnimatedList(
+          key: _listKey,
+          initialItemCount: _items.length,
+          itemBuilder: (context, index, animation) {
+            return SlideTransition(
+              position: animation.drive(
+                Tween<Offset>(
+                  begin: const Offset(0, 1),
+                  end: Offset.zero,
+                ).chain(CurveTween(curve: Curves.easeOut)),
+              ),
+              child: _items[index],
+            );
+          },
         ),
       ),
     );
