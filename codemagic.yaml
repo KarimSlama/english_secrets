@@ -18,6 +18,7 @@ workflows:
       - name: Install Flutter dependencies
         script: |
           flutter clean
+          flutter pub get
       - name: Build iOS release
         script: |
           flutter build ios --release
