@@ -1,3 +1,9 @@
+notifications:
+  email:
+    recipients:
+      - "kslama499@example.com"
+    on_success: true
+    on_failure: true
 workflows:
   flutter-ios:
     name: Build iOS App
@@ -11,9 +17,9 @@ workflows:
     scripts:
       - name: Install Flutter dependencies
         script: |
-          flutter pub get
+          flutter clean
       - name: Build iOS release
         script: |
-          flutter build ios --release --no-codesign
+          flutter build ios --release
     artifacts:
       - build/ios/ipa/*.ipa
